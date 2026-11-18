@@ -5,7 +5,7 @@ export default function Hero({ onPrint }) {
         <div className="eyebrow">Guía de viaje · Llanes, Asturias</div>
         <div className="hero-top">
           <h1>
-            Llanes
+            Llanes{" "}
             <em>guía de un local</em>
           </h1>
           <button className="print-button" onClick={onPrint} type="button">
