@@ -7,7 +7,7 @@ export default function ImageWithFallback({
   fallbackClassName,
 }) {
   const [failed, setFailed] = useState(false);
-  const src = `/images/${image}`;
+  const src = `${import.meta.env.BASE_URL}images/${image}`;
 
   if (failed) {
     return <div className={fallbackClassName}>{src}</div>;
